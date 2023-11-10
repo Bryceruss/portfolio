@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	width: 100%;
+	background: url(background.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	font-family: sans-serif;
+}
+
+.nav{
+	width: 86%;
+	display: flex;
+	margin: auto;
+	padding: 15px 0px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav .logo{
+	width: 160px;
+	cursor: pointer;
+	margin-top: -3%;
+	margin-left: -2%;
+}
+
+ul{
+	margin: -4%;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 16px;
+}
+
+ul li a{
+	font-size: 16px;
+	font-weight: bold;
+	color: yellowgreen;
+
+}
+
+ul li a:hover{
+	color: red;
+}
+
+.info{
+	margin-left: 7%;
+	margin-top: 6%;
+	color: black;
+}
+
+.info h1{
+	font-size: 65px;
+	color: black;
+}
+
+.info h3{
+	font-size: 30px;
+	letter-spacing: 2px;
+	line-height: 24px;
+}
+
+.info span{
+	color: deepskyblue;
+}
+
+.face{
+	width: 30%;
+	height: 60%;
+	position: absolute;
+	right: 100px;
+	bottom: 0;
+}
+
+.face img{
+	position: absolute;
+	height: 100%;
+	left: 40%;
+	transform: translate(-50%);
+	bottom: 20%;
+}
+
+
+
+			/*contacts css*/
+
+
+.contact{
+	width: 100%;
+	background: url(background.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	font-family: sans-serif;
+}
+
+.contactme{
+	font-size: 50px;
+	font-family: cursive;
+	border: dashed;
+}
+
+.through{
+	font-size: 30px;
+	font-family: cursive;
+	margin-left: 40%;
+	margin-top: 30px;
+}
+
+.contact li{
+	display: block;
+	margin-left: 40%;
+	margin-top: 2%;
+	color: red;
+}
+
+.contact ul{
+	margin-top: 5%;
+}
+
+.logo{
+	margin-top: 5%;
+	margin-left: 40%;
+
+}
+
+.email{
+	width: 40px;
+	margin: 10px;
+	
+}
+
+.facebook{
+	width: 40px;
+	margin: 10px;
+}
+
+.instagram{
+	width: 40px;
+	margin: 10px;
+}
+
+
+
+			/* Services css */
+
+
+
+.services{
+	margin: 0;
+	width: 100%;
+	background: url(background.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	font-family: cursive;
+}
+
+.looking{
+	font-size: 30px;
+	color: darkblue;
+	margin-bottom: 5%;
+	border: double;
+}
+
+.skills li{
+	margin-left: 10%;
+	margin-top: 5px;
+	display: block;
+}
+
+.interested{
+	margin-top: 10%;
+	color: blueviolet;
+	border: dotted;
+}
+
+
+
+		/* About css */
+
+
+
+.about{
+	margin: 0;
+	width: 100%;
+	background: url(background.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	font-family: cursive;
+}
+
+.about h1{
+	font-size: 70px;
+	margin-bottom: 10%;
+	border: solid;
+}
+
+.about span{
+	color: darkblue;
+}
+
+.about li{
+	padding: 5px;
+	display: block;
+	margin-top: 2%;
+	list-style-type: square;
+	color: midnightblue;
+	font-size: 20px;
+}
+
+.nawng{
+	width: 30%;
+	height: 60%;
+	position: absolute;
+	margin-top: -25%;
+}
